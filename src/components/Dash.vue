@@ -61,7 +61,7 @@ export default {
     user () {
       return {
         displayName: faker.name.findName(),
-        avatar: faker.image.avatar(),
+        avatar: 'static/img/avatar.png',
         roles: [faker.name.jobTitle(), faker.name.jobTitle()]
       }
     }

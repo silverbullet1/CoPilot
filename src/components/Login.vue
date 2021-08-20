@@ -109,7 +109,7 @@ html,
 body,
 .container-table {
   height: 100%;
-  background-color: #282b30 !important;
+  background-color: #339dce !important;
 }
 .container-table {
   display: table;
@@ -135,18 +135,18 @@ body,
 
 .input-group {
   padding-bottom: 2em;
-  height: 4em;
+  height: 2em;
   width: 100%;
 }
 
 .input-group span.input-group-addon {
   width: 2em;
-  height: 4em;
+  height: 2em;
 }
 
 @media (max-width: 1241px) {
   .input-group input {
-    height: 4em;
+    height: 2em;
   }
 }
 @media (min-width: 1242px) {
@@ -156,7 +156,7 @@ body,
   }
 
   .input-group input {
-    height: 6em;
+    height: 4em;
   }
 }
 

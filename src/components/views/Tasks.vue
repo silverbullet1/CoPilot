@@ -1,7 +1,7 @@
 <template>
   <section class="content">
     <div class="row center-block">
-      <h1 class="text-center">Tasks</h1>
+      <h1 class="text-center">Timeline</h1>
       <ul class="timeline">
         <!-- timeline time label -->
         <li class="time-label">

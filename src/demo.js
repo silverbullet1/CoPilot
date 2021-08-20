@@ -46,26 +46,40 @@ export const stats = [{
 export const timeline = [{
   icon: 'fa-envelope',
   color: 'blue',
-  title: 'Write short novel',
-  time: moment().endOf('day').fromNow(),
-  body: 'Etsy doostang zoodles disqus groupon greplin oooj voxy zoodles, weebly ning heekya handango imeem plugg dopplr jibjab, movity jajah plickers sifteo edmodo ifttt zimbra. Babblely odeo kaboodle quora plaxo ideeli hulu weebly balihoo...',
-  buttons: [{
-    type: 'primary',
-    message: 'Read more',
-    href: 'https://github.com/misterGF/CoPilot',
-    target: '_blank'
-  }]
+  title: 'Order ID 1565 created successfully.',
+  time: moment().endOf('day').fromNow()
+  // body: '',
+  // buttons: [{
+  //   type: 'primary',
+  //   message: 'Read more',
+  //   href: 'https://github.com/misterGF/CoPilot',
+  //   target: '_blank'
+  // }]
 },
 {
   icon: 'fa-user',
   color: 'yellow',
-  title: 'Sarah Young accepted your friend request',
+  title: 'Expert Assignment Pending',
+  body: '',
+  buttons: [{
+    type: 'primary',
+    message: 'Click here to assign/change expert',
+    href: 'https://github.com/misterGF/CoPilot',
+    target: '_blank'
+  }],
+  time: moment('20150620', 'MMM Do YY').fromNow()
+},
+{
+  icon: 'fa-user',
+  color: 'yellow',
+  title: 'Expert John doe assigned successfully',
+  body: '',
   time: moment('20150620', 'MMM Do YY').fromNow()
 },
 {
   icon: 'fa-camera',
   color: 'purple',
-  title: 'Watch a youTube video',
+  title: 'Expert submission successful',
   time: moment('20130620', 'YYYYMMDD').fromNow(),
-  body: '<div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/8aGhZQkoFbQ" frameborder="0" allowfullscreen></iframe></div>'
+  body: '<div class="embed-responsive embed-responsive-16by9"><iframe src="https://docs.google.com/document/d/e/2PACX-1vRl-pQPTVh_k9NOGmcQvJ3eAQPzEyW7blHot66nB3zFyHZ8q4cN5U7pInZF2_wfgvnGQHtm8kANQgNo/pub?embedded=true"></iframe></div>'
 }]

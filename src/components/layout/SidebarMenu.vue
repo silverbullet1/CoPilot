@@ -70,7 +70,7 @@
     <router-link tag="li" class="pageLink" to="/repos">
       <a>
         <i class="fa fa-heart"></i>
-        <span class="page">Repos</span>
+        <span class="page">Experts</span>
         <small class="label pull-right bg-green">AJAX</small>
       </a>
     </router-link>

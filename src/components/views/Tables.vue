@@ -88,93 +88,86 @@
                   <table aria-describedby="example1_info" role="grid" id="example1" class="table table-bordered table-striped dataTable">
                     <thead>
                       <tr role="row">
-                        <th aria-label="Rendering engine: activate to sort column descending" aria-sort="ascending" style="width: 167px;" colspan="1" rowspan="1" aria-controls="example1" tabindex="0" class="sorting_asc">Rendering engine</th>
-                        <th aria-label="Browser: activate to sort column ascending" style="width: 207px;" colspan="1" rowspan="1" aria-controls="example1" tabindex="0" class="sorting">Browser</th>
-                        <th aria-label="Platform(s): activate to sort column ascending" style="width: 182px;" colspan="1" rowspan="1" aria-controls="example1" tabindex="0" class="sorting">Platform(s)</th>
-                        <th aria-label="Engine version: activate to sort column ascending" style="width: 142px;" colspan="1" rowspan="1" aria-controls="example1" tabindex="0" class="sorting">Engine version</th>
-                        <th aria-label="CSS grade: activate to sort column ascending" style="width: 101px;" colspan="1" rowspan="1" aria-controls="example1" tabindex="0" class="sorting">CSS grade</th>
+                        <th aria-label="Order Code" aria-sort="ascending" style="width: 167px;" colspan="1" rowspan="1" aria-controls="example1" tabindex="0" class="sorting_asc">Order code</th>
+                        <th aria-label="Subject" style="width: 207px;" colspan="1" rowspan="1" aria-controls="example1" tabindex="0" class="sorting">Subject</th>
+                        <th aria-label="Word count" style="width: 182px;" colspan="1" rowspan="1" aria-controls="example1" tabindex="0" class="sorting">Word Count</th>
+                        <th aria-label="Expert deadline" style="width: 142px;" colspan="1" rowspan="1" aria-controls="example1" tabindex="0" class="sorting">Expert deadline</th>
+                        <th aria-label="Price" style="width: 101px;" colspan="1" rowspan="1" aria-controls="example1" tabindex="0" class="sorting">Price</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr class="even" role="row">
-                        <td class="sorting_1">Blink</td>
-                        <td>Iridium  54.0</td>
-                        <td>GNU/Linux</td>
-                        <td>54</td>
-                        <td>A</td>
+                        <td class="sorting_1">1</td>
+                        <td>Economics</td>
+                        <td>500</td>
+                        <td>5/11/2021 - 2pm</td>
+                        <td>$200</td>
                       </tr>
                       <tr class="odd" role="row">
-                        <td class="sorting_1">Gecko</td>
-                        <td>Firefox 1.0</td>
-                        <td>Win 98+ / OSX.2+</td>
-                        <td>1.7</td>
-                        <td>A</td>
+                        <td class="sorting_1">2</td>
+                        <td>English</td>
+                        <td>1000</td>
+                        <td>4/12/2021 - 4pm</td>
+                        <td>$400</td>
                       </tr>
                       <tr class="even" role="row">
-                        <td class="sorting_1">Gecko</td>
-                        <td>Firefox 1.5</td>
-                        <td>Win 98+ / OSX.2+</td>
-                        <td>1.8</td>
-                        <td>A</td>
+                        <td class="sorting_1">3</td>
+                        <td>Psychology</td>
+                        <td>500</td>
+                        <td>5/12/2021 - 1pm</td>
+                        <td>$200</td>
                       </tr>
                       <tr class="odd" role="row">
-                        <td class="sorting_1">Gecko</td>
-                        <td>Firefox 2.0</td>
-                        <td>Win 98+ / OSX.2+</td>
-                        <td>1.8</td>
-                        <td>A</td>
+                        <td class="sorting_1">4</td>
+                        <td>Arts</td>
+                        <td>2000</td>
+                        <td>12/12/2021 - 9pm</td>
+                        <td>$400</td>
                       </tr>
                       <tr class="even" role="row">
-                        <td class="sorting_1">Gecko</td>
-                        <td>Firefox 3.0</td>
-                        <td>Win 2k+ / OSX.3+</td>
-                        <td>1.9</td>
-                        <td>A</td>
+                        <td class="sorting_1">5</td>
+                        <td>Humanities</td>
+                        <td>1000</td>
+                        <td>24/12/2021 - 6pm</td>
+                        <td>$100</td>
                       </tr>
                       <tr class="odd" role="row">
-                        <td class="sorting_1">Gecko</td>
-                        <td>Camino 1.0</td>
-                        <td>OSX.2+</td>
-                        <td>1.8</td>
-                        <td>A</td>
+                        <td class="sorting_1">6</td>
+                        <td>Physics</td>
+                        <td>500</td>
+                        <td>28/12/2021 - 4pm</td>
+                        <td>$300</td>
                       </tr>
                       <tr class="even" role="row">
-                        <td class="sorting_1">Gecko</td>
-                        <td>Camino 1.5</td>
-                        <td>OSX.3+</td>
-                        <td>1.8</td>
-                        <td>A</td>
+                        <td class="sorting_1">7</td>
+                        <td>Economics</td>
+                        <td>500</td>
+                        <td>5/11/2021 - 2pm</td>
+                        <td>$200</td>
                       </tr>
                       <tr class="odd" role="row">
-                        <td class="sorting_1">Gecko</td>
-                        <td>Netscape 7.2</td>
-                        <td>Win 95+ / Mac OS 8.6-9.2</td>
-                        <td>1.7</td>
-                        <td>A</td>
+                        <td class="sorting_1">8</td>
+                        <td>English</td>
+                        <td>1000</td>
+                        <td>4/12/2021 - 4pm</td>
+                        <td>$400</td>
                       </tr>
                       <tr class="even" role="row">
-                        <td class="sorting_1">Gecko</td>
-                        <td>Netscape Browser 8</td>
-                        <td>Win 98SE+</td>
-                        <td>1.7</td>
-                        <td>A</td>
+                        <td class="sorting_1">9</td>
+                        <td>Psychology</td>
+                        <td>500</td>
+                        <td>5/12/2021 - 1pm</td>
+                        <td>$200</td>
                       </tr>
                       <tr class="odd" role="row">
-                        <td class="sorting_1">Gecko</td>
-                        <td>Netscape Navigator 9</td>
-                        <td>Win 98+ / OSX.2+</td>
-                        <td>1.8</td>
-                        <td>A</td>
-                      </tr>
-                      <tr class="even" role="row">
-                        <td class="sorting_1">Gecko</td>
-                        <td>Mozilla 1.0</td>
-                        <td>Win 95+ / OSX.1+</td>
-                        <td>1</td>
-                        <td>A</td>
+                        <td class="sorting_1">10</td>
+                        <td>Arts</td>
+                        <td>2000</td>
+                        <td>12/12/2021 - 9pm</td>
+                        <td>$400</td>
                       </tr>
                     </tbody>
-                    <tfoot>
+                    <!-- <tfoot>
                       <tr>
                         <th colspan="1" rowspan="1">Rendering engine</th>
                         <th colspan="1" rowspan="1">Browser</th>
@@ -182,7 +175,7 @@
                         <th colspan="1" rowspan="1">Engine version</th>
                         <th colspan="1" rowspan="1">CSS grade</th>
                       </tr>
-                    </tfoot>
+                    </tfoot> -->
                   </table>
                 </div>
               </div>

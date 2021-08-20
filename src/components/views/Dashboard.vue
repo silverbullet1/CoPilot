@@ -4,29 +4,29 @@
     <!-- GitHub hint -->
     <div class="row">
       <div class="col-xs-12">
-        <alert :dismissible="true"
+        <!-- <alert :dismissible="true"
                type="success"
                :iconClasses="['fa', 'fa-check']"
-               title="CoPilot is open source!">
+               title="Welcome to Admin Dashboard!">
           <span>Click on icon to check it out on github.</span>
           <a href="https://github.com/misterGF/CoPilot" target="_blank">
             <i class="fa fa-github fa-2x"></i>
           </a>
-        </alert>
+        </alert> -->
       </div>
 
       <!-- Info boxes -->
       <div class="col-md-3 col-sm-6 col-xs-12">
         <info-box color-class="bg-aqua"
                   :icon-classes="['ion', 'ion-ios-gear-outline']"
-                  text="CPU Traffic"
+                  text="Total orders"
                   number="90%"></info-box>
       </div>
       <!-- /.col -->
       <div class="col-md-3 col-sm-6 col-xs-12">
         <info-box color-class="bg-red"
                   :icon-classes="['fa', 'fa-google-plus']"
-                  text="Likes"
+                  text="Delivered Orders"
                   number="41,410"></info-box>
       </div>
       <!-- /.col -->
@@ -37,14 +37,14 @@
       <div class="col-md-3 col-sm-6 col-xs-12">
         <info-box color-class="bg-green"
                   :icon-classes="['ion', 'ion-ios-cart-outline']"
-                  text="Sales"
+                  text="In process Orders"
                   number="760"></info-box>
       </div>
       <!-- /.col -->
       <div class="col-md-3 col-sm-6 col-xs-12">
         <info-box color-class="bg-yellow"
                   :icon-classes="['ion', 'ion-ios-people-outline']"
-                  text="New Members"
+                  text="Reopened Orders"
                   number="2,000"></info-box>
       </div>
       <!-- /.col -->
@@ -58,7 +58,7 @@
           <div class="box-body">
             <div class="col-sm-6 col-xs-12">
               <p class="text-center">
-                <strong>Web Traffic Overview</strong>
+                <strong>Traffic Overview</strong>
               </p>
               <canvas id="trafficBar" ></canvas>
             </div>
@@ -71,9 +71,9 @@
             </div>
           </div>
         </div>
-        <div class="text-center">
+        <!-- <div class="text-center">
           <small><b>Pro Tip</b> Don't forget to star us on github!</small>
-        </div>
+        </div> -->
       </div>
     </div>
     <!-- /.row -->

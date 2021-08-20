@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1 class="text-center">Repos</h1>
-    <h4 class="text-center">Github Repos</h4>
+    <h1 class="text-center">Experts</h1>
+    <h4 class="text-center">Expert profiles</h4>
 
     <section class="content">
       <div class="row">
