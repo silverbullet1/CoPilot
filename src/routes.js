@@ -10,12 +10,16 @@ import SettingView from './components/views/Setting.vue'
 import AccessView from './components/views/Access.vue'
 import ServerView from './components/views/Server.vue'
 import ReposView from './components/views/Repos.vue'
-
+import ChatView from './components/views/Chat.vue'
 // Routes
 const routes = [
   {
     path: '/login',
     component: LoginView
+  },
+  {
+    path: '/chats',
+    component: ChatView
   },
   {
     path: '/',
