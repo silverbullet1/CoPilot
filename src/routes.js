@@ -18,10 +18,6 @@ const routes = [
     component: LoginView
   },
   {
-    path: '/chats',
-    component: ChatView
-  },
-  {
     path: '/',
     component: DashView,
     children: [
@@ -61,6 +57,12 @@ const routes = [
         component: ReposView,
         name: 'Repository',
         meta: {description: 'List of popular javascript repos'}
+      },
+      {
+        path: 'chats',
+        component: ChatView,
+        name: 'Chats',
+        meta: {description: 'Speak to us!'}
       }
     ]
   }, {
