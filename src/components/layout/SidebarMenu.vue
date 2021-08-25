@@ -21,6 +21,12 @@
         <span class="page">Tasks</span>
       </a>
     </router-link>
+    <router-link tag="li" class="pageLink" to="/chats">
+      <a>
+        <i class="fa fa-folder-o"></i>
+        <span class="page">Chat</span>
+      </a>
+    </router-link>
     <router-link tag="li" class="pageLink" to="/setting">
       <a>
         <i class="fa fa-cog"></i>
