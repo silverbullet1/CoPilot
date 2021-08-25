@@ -15,3 +15,7 @@
 //     new VueLoaderPlugin()
 //   ]
 // }
+module.exports = {
+  lintOnSave: false,
+  useEslint: false
+}
