@@ -85,6 +85,7 @@ import {
 } from '@/firestore'
 import { parseTimestamp, isSameDay } from '@/utils/dates'
 import ChatWindow from 'vue-advanced-chat'
+import 'vue-advanced-chat/dist/vue-advanced-chat.css'
 // import ChatWindow, { Rooms } from 'vue-advanced-chat'
 // import ChatWindow from 'vue-advanced-chat'
 // import 'vue-advanced-chat/dist/vue-advanced-chat.css'
@@ -153,7 +154,7 @@ export default {
 			return this.rooms.slice(0, this.roomsLoadedCount)
 		},
 		screenHeight() {
-			return this.isDevice ? window.innerHeight + 'px' : 'calc(100vh - 80px)'
+			return window.innerHeight + 'px'
 		}
 	},
 
@@ -860,76 +861,3 @@ export default {
 	}
 }
 </script>
-
-<style lang="scss" scoped>
-.window-container {
-	width: 100%;
-}
-
-.window-mobile {
-	form {
-		padding: 0 10px 10px;
-	}
-}
-
-form {
-	padding-bottom: 20px;
-}
-
-input {
-	padding: 5px;
-	width: 140px;
-	height: 21px;
-	border-radius: 4px;
-	border: 1px solid #d2d6da;
-	outline: none;
-	font-size: 14px;
-	vertical-align: middle;
-
-	&::placeholder {
-		color: #9ca6af;
-	}
-}
-
-button {
-	background: #1976d2;
-	color: #fff;
-	outline: none;
-	cursor: pointer;
-	border-radius: 4px;
-	padding: 8px 12px;
-	margin-left: 10px;
-	border: none;
-	font-size: 14px;
-	transition: 0.3s;
-	vertical-align: middle;
-
-	&:hover {
-		opacity: 0.8;
-	}
-
-	&:active {
-		opacity: 0.6;
-	}
-
-	&:disabled {
-		cursor: initial;
-		background: #c6c9cc;
-		opacity: 0.6;
-	}
-}
-
-.button-cancel {
-	color: #a8aeb3;
-	background: none;
-	margin-left: 5px;
-}
-
-select {
-	vertical-align: middle;
-	height: 33px;
-	width: 152px;
-	font-size: 13px;
-	margin: 0 !important;
-}
-</style>
