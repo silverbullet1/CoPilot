@@ -83,7 +83,7 @@
       <div class="col-md-3 col-sm-6 col-xs-12">
         <process-info-box color-class="bg-yellow"
                           :icon-classes="['ion', 'ion-ios-pricetag-outline']"
-                          text="Inventory"
+                          text="Total Earnings"
                           number="5,200"
                           :progress="50"
                           description="50% increase since May"></process-info-box>
@@ -92,7 +92,7 @@
       <div class="col-md-3 col-sm-6 col-xs-12">
         <process-info-box color-class="bg-green"
                           :icon-classes="['ion', 'ion-ios-heart-outline']"
-                          text="Mentions"
+                          text="Total Penalty"
                           number="92,050"
                           :progress="20"
                           description="20% increase in 30 days"></process-info-box>
@@ -101,7 +101,7 @@
       <div class="col-md-3 col-sm-6 col-xs-12">
         <process-info-box color-class="bg-red"
                           :icon-classes="['ion', 'ion-ios-cloud-download-outline']"
-                          text="Downloads"
+                          text="Current Penalty"
                           number="114,381"
                           :progress="70"
                           description="70% increase since yesterday"></process-info-box>
@@ -110,7 +110,7 @@
       <div class="col-md-3 col-sm-6 col-xs-12">
         <process-info-box color-class="bg-aqua"
                           :icon-classes="['ion', 'ion-ios-chatbubble-outline']"
-                          text="Direct Messages"
+                          text="Current Earnings"
                           number="163,921"
                           :progress="40"
                           description="40% increase compared to last year"></process-info-box>
@@ -124,9 +124,9 @@
 
 <script>
 import Chart from 'chart.js'
-import Alert from '../widgets/Alert'
-import InfoBox from '../widgets/InfoBox'
-import ProcessInfoBox from '../widgets/ProcessInfoBox'
+import Alert from '../../widgets/Alert'
+import InfoBox from '../../widgets/InfoBox'
+import ProcessInfoBox from '../../widgets/ProcessInfoBox'
 
 export default {
   name: 'Dashboard',
@@ -201,7 +201,7 @@ export default {
       var pieConfig = {
         type: 'pie',
         data: {
-          labels: ['HTML', 'JavaScript', 'CSS'],
+          labels: ['Psychology', 'Mathematics', 'Economics'],
           datasets: [{
             data: [56.6, 37.7, 4.1],
             backgroundColor: ['#00a65a', '#f39c12', '#00c0ef'],

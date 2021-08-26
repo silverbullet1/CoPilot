@@ -12,12 +12,13 @@
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
     "deploy": "netlify deploy dist",
-    "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
+    "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
     "axios": "^0.15.3",
     "babel-preset-es2015": "^6.24.1",
     "babel-runtime": "^5.8.0",
+    "buefy": "^0.9.9",
     "chart.js": "2.3.0",
     "datatables.net": "^1.10.19",
     "datatables.net-bs": "^1.10.19",
@@ -33,6 +34,7 @@
     "vue-loader": "^15.9.2",
     "vue-resource": "^1.0.3",
     "vue-router": "^2.2.0",
+    "vuelidate": "^0.7.6",
     "vuex": "^2.0.0",
     "vuex-router-sync": "^4.1.2"
   },
