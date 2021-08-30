@@ -1,7 +1,7 @@
 <template>
   <!-- eslint-disable -->
   <section>
-    <b-navbar>
+    <b-navbar class="nav">
       <template #brand>
         <b-navbar-item tag="router-link" :to="{ path: '/' }">
           <img
@@ -32,155 +32,160 @@
       </template>
     </b-navbar>
 
-<div class='signup-container'>
-  <div class='left-container'>
-    <h1>
-      <i class='fas fa-book-reader'></i>
-      My Assignment Service
-    </h1>
-    <div class='puppy'>
-      <img src='/static/img/idea.png'>
+<div class="columns">
+    <div class = "column is-one-third">
+      <section class = "introText">
+      <h1>Assignment Help Australia</h1>
+      <!-- </br> -->
+      <h3> By Your Assignment Services </h3>
+      Unparalleled Assignment writing service by Australian phD Expert writers.
+      <!-- </br> -->
+      You can ACE your grades too. Go on. Seize them with
+      <h2> Price starts $10 </h2>
+      <ul>
+        <li> Preferred experts </li>
+        <li> Downloadable samples </li>
+        <li> Unlimited revisions </li>
+      </ul>
+    </section>
     </div>
-  </div>
-  <div class='right-container'>
-    <header>
-      <h1>Yay, puppies! Ensure your pup gets the best care!</h1>
-      <div class='set'>
-        <div class='pets-name'>
-          <label for='pets-name'>Name</label>
-          <input id='pets-name' placeholder="Pet's name" type='text'>
-        </div>
-        <div class='pets-photo'>
-          <button id='pets-upload'>
-            <i class='fas fa-camera-retro'></i>
-          </button>
-          <label for='pets-upload'>Upload a photo</label>
-        </div>
-      </div>
-      <div class='set'>
-        <div class='pets-breed'>
-          <label for='pets-breed'>Breed</label>
-          <input id='pets-breed' placeholder="Pet's breed" type='text'>
-        </div>
-        <div class='pets-birthday'>
-          <label for='pets-birthday'>Birthday</label>
-          <input id='pets-birthday' placeholder='MM/DD/YYYY' type='text'>
-        </div>
-      </div>
-      <div class='set'>
-        <div class='pets-gender'>
-          <label for='pet-gender-female'>Gender</label>
-          <div class='radio-container'>
-            <input checked='' id='pet-gender-female' name='pet-gender' type='radio' value='female'>
-            <label for='pet-gender-female'>Female</label>
-            <input id='pet-gender-male' name='pet-gender' type='radio' value='male'>
-            <label for='pet-gender-male'>Male</label>
+
+    <div class="column">
+      <section class="form">
+        <div class="signup-container">
+          <div class="left-container">
+            <h1>
+              <!-- <i class='fas fa-book-reader'></i> -->
+              <div class = 'highlight'>
+              Upto 50% off on all Assignments
+              </div>
+            </h1>
+            <div class="puppy">
+              <img src="/static/img/idea.png" />
+            </div>
+          </div>
+          <div class="right-container">
+            <header>
+              <h1>Your Assignment Service</h1>
+              <div class="set">
+                <div class="pets-name">
+                  <label for="pets-name">Name</label>
+                  <input id="pets-name" placeholder="Pet's name" type="text" />
+                </div>
+                <div class="pets-photo">
+                  <button id="pets-upload">
+                    <i class="fas fa-camera-retro"></i>
+                  </button>
+                  <label for="pets-upload">Upload a photo</label>
+                </div>
+              </div>
+              <div class="set">
+                <div class="pets-breed">
+                  <label for="pets-breed">Breed</label>
+                  <input
+                    id="pets-breed"
+                    placeholder="Pet's breed"
+                    type="text"
+                  />
+                </div>
+                <div class="pets-birthday">
+                  <label for="pets-birthday">Birthday</label>
+                  <input
+                    id="pets-birthday"
+                    placeholder="MM/DD/YYYY"
+                    type="text"
+                  />
+                </div>
+              </div>
+              <div class="set">
+                <div class="pets-gender">
+                  <label for="pet-gender-female">Gender</label>
+                  <div class="radio-container">
+                    <input
+                      checked=""
+                      id="pet-gender-female"
+                      name="pet-gender"
+                      type="radio"
+                      value="female"
+                    />
+                    <label for="pet-gender-female">Female</label>
+                    <input
+                      id="pet-gender-male"
+                      name="pet-gender"
+                      type="radio"
+                      value="male"
+                    />
+                    <label for="pet-gender-male">Male</label>
+                  </div>
+                </div>
+                <div class="pets-spayed-neutered">
+                  <label for="pet-spayed">Spayed or Neutered</label>
+                  <div class="radio-container">
+                    <input
+                      checked=""
+                      id="pet-spayed"
+                      name="spayed-neutered"
+                      type="radio"
+                      value="spayed"
+                    />
+                    <label for="pet-spayed">Spayed</label>
+                    <input
+                      id="pet-neutered"
+                      name="spayed-neutered"
+                      type="radio"
+                      value="neutered"
+                    />
+                    <label for="pet-neutered">Neutered</label>
+                  </div>
+                </div>
+              </div>
+              <div class="pets-weight">
+                <label for="pet-weight-0-25">Weight</label>
+                <div class="radio-container">
+                  <input
+                    checked=""
+                    id="pet-weight-0-25"
+                    name="pet-weight"
+                    type="radio"
+                    value="0-25"
+                  />
+                  <label for="pet-weight-0-25">0-25 lbs</label>
+                  <input
+                    id="pet-weight-25-50"
+                    name="pet-weight"
+                    type="radio"
+                    value="25-50"
+                  />
+                  <label for="pet-weight-25-50">25-50 lbs</label>
+                  <input
+                    id="pet-weight-50-100"
+                    name="pet-weight"
+                    type="radio"
+                    value="50-100"
+                  />
+                  <label for="pet-weight-50-100">50-100 lbs</label>
+                  <input
+                    id="pet-weight-100-plus"
+                    name="pet-weight"
+                    type="radio"
+                    value="100+"
+                  />
+                  <label for="pet-weight-100-plus">100+ lbs</label>
+                </div>
+              </div>
+            </header>
+            <footer>
+              <div class="set">
+                <button id="back">Back</button>
+                <button id="next">Next</button>
+              </div>
+            </footer>
           </div>
         </div>
-        <div class='pets-spayed-neutered'>
-          <label for='pet-spayed'>Spayed or Neutered</label>
-          <div class='radio-container'>
-            <input checked='' id='pet-spayed' name='spayed-neutered' type='radio' value='spayed'>
-            <label for='pet-spayed'>Spayed</label>
-            <input id='pet-neutered' name='spayed-neutered' type='radio' value='neutered'>
-            <label for='pet-neutered'>Neutered</label>
-          </div>
-        </div>
-      </div>
-      <div class='pets-weight'>
-        <label for='pet-weight-0-25'>Weight</label>
-        <div class='radio-container'>
-          <input checked='' id='pet-weight-0-25' name='pet-weight' type='radio' value='0-25'>
-          <label for='pet-weight-0-25'>0-25 lbs</label>
-          <input id='pet-weight-25-50' name='pet-weight' type='radio' value='25-50'>
-          <label for='pet-weight-25-50'>25-50 lbs</label>
-          <input id='pet-weight-50-100' name='pet-weight' type='radio' value='50-100'>
-          <label for='pet-weight-50-100'>50-100 lbs</label>
-          <input id='pet-weight-100-plus' name='pet-weight' type='radio' value='100+'>
-          <label for='pet-weight-100-plus'>100+ lbs</label>
-        </div>
-      </div>
-    </header>
-    <footer>
-      <div class='set'>
-        <button id='back'>Back</button>
-        <button id='next'>Next</button>
-      </div>
-    </footer>
-  </div>
+      </section>
+    </div>
 </div>
 
-    <!-- <b-carousel :progress="progress" :progress-type="progressType">
-      <b-carousel-item v-for="(carousel, i) in carousels" :key="i">
-        <section :class="`hero is-medium is-white`">
-          <div class="hero-body has-text-centered">
-            <h1 class="title">{{ carousel.title }}</h1>
-          </div>
-        </section>
-      </b-carousel-item>
-    </b-carousel> -->
-    <!-- <b-steps
-      position="right"
-      label-position="right"
-      size="small"
-      rounded="true"
-      vertical
-    > -->
-      <!-- <b-step-item label="Account" icon="account-key"> -->
-        <!-- <div class="columns">
-          <div class="column firsthalf is-half textcontainer">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod
-          </div> -->
-
-          <!-- <div class="column is-two-fifths">
-            <div class="container is-fluid">
-              <div class="notification is-primary">
-                <b-field label="Name" horizontal>
-                  <b-input placeholder = "John Doe" v-model="name"></b-input>
-                </b-field>
-
-                <b-field
-                  label="Email"
-                  horizontal
-                >
-                  <b-input type="email" placeholder="johndoe@gmail.com" maxlength="30"> </b-input>
-                </b-field>
-                <b-field label="Subject" horizontal>
-                  <b-select placeholder="Select a subject" expanded>
-                    <option value="1">Economics</option>
-                    <option value="2">Humanities</option>
-                    <option value="2">Psychology</option>
-                    <option value="2">Mathematics</option>
-                  </b-select>
-                </b-field>
-                <b-field grouped label="Words" horizontal>
-                  <b-input v-model="value" type="number"></b-input>
-                </b-field>
-                <b-field>
-                  <b-slider v-model="value" lazy></b-slider>
-                </b-field>
-                <b-button rounded expanded>Submit</b-button>
-              </div>
-            </div>
-          </div> -->
-        </div>
-      <!-- </b-step-item> -->
-      <!-- <b-step-item label="Profile" icon="account">
-        Profile: Lorem ipsum dolor sit amet. <br />
-        Profile: Lorem ipsum dolor sit amet.? <br />
-        Profile: Lorem ipsum dolor sit amet. <br />
-        Profile: Lorem ipsum dolor sit amet.
-      </b-step-item>
-
-      <b-step-item label="Social" icon="account-plus" disabled>
-        Social: Lorem ipsum dolor sit amet. <br />
-        Social: Lorem ipsum dolor sit amet. <br />
-        Social: Lorem ipsum dolor sit amet. <br />
-        Social: Lorem ipsum dolor sit amet. <br />
-        Social: Lorem ipsum dolor sit amet.
-      </b-step-item>
-    </b-steps> -->
   </section>
 </template>
 
@@ -205,8 +210,13 @@ export default {
 </script>
 
 <style>
-
-
+.nav {
+  margin: 0;
+}
+.highlight {
+  background: #EAC4D5;
+  padding: 4px;
+}
 .button.is-primary {
   /* background-color: #7957d5; */
   padding: 2%;
@@ -220,9 +230,20 @@ export default {
   padding: 0;
 }
 
-body {
+section {
+  background: #ade8f4 !important;
+}
+.introText {
   align-items: center;
-  background: #D8AA96 !important;
+  justify-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  display: grid;
+}
+.form {
+  align-items: center;
+  /* background: #ade8f4 !important; */
   color: rgba(0, 0, 0, 0.8);
   display: grid;
   font-family: "Montserrat", sans-serif;
@@ -240,7 +261,7 @@ body {
 }
 
 .left-container {
-  background: #807182;
+  background: #caf0f8;
   overflow: hidden;
   padding: 40px 0 0 0;
   position: relative;
@@ -253,7 +274,7 @@ body {
   font-size: 24px;
 }
 .left-container h1 i {
-  background: #b0dff1;
+  background: #caf0f8;
   border-radius: 50%;
   color: #ffffff;
   font-size: 24px;
@@ -267,7 +288,7 @@ body {
   text-align: center;
 }
 .left-container .puppy:before {
-  background: #807182;
+  /* background: white; */
   content: "";
   height: 100%;
   left: 0;
@@ -277,12 +298,12 @@ body {
   z-index: 1;
 }
 .left-container img {
-  filter: sepia(100%);
-  width: 70%;
+  /* filter: sepia(100%); */
+  width: 80%;
 }
 
 .right-container {
-  background: #f9c7c2;
+  background: #90e0ef;
   display: grid;
   grid-template-areas: "." ".";
   width: 500px;
@@ -304,13 +325,16 @@ body {
   line-height: 38px;
   padding-left: 5px;
 }
-.right-container input, .right-container label {
+.right-container input,
+.right-container label {
   color: rgba(0, 0, 0, 0.8);
 }
 .right-container header {
   padding: 40px;
 }
-.right-container label, .right-container input, .right-container .pets-photo {
+.right-container label,
+.right-container input,
+.right-container .pets-photo {
   width: 176px;
 }
 .right-container .pets-photo {
@@ -354,19 +378,24 @@ body {
   transition: 0.2s all ease-in-out;
 }
 .right-container footer #back:hover {
-  background: #171A2B;
+  background: #171a2b;
   color: white;
 }
 .right-container footer #next {
-  background: #807182;
+  background: #90e0ef;
   border: 1px solid transparent;
   color: #fff;
 }
 .right-container footer #next:hover {
-  background: #171A2B;
+  background: #171a2b;
 }
 
-.pets-name label, .pets-breed label, .pets-birthday label, .pets-gender label, .pets-spayed-neutered label, .pets-weight label {
+.pets-name label,
+.pets-breed label,
+.pets-birthday label,
+.pets-gender label,
+.pets-spayed-neutered label,
+.pets-weight label {
   display: block;
   margin-bottom: 5px;
 }
@@ -393,13 +422,12 @@ body {
   width: 80px;
 }
 
-.radio-container input[type=radio] {
+.radio-container input[type="radio"] {
   display: none;
 }
 
-.radio-container input[type=radio]:checked + label {
-  background: #F7B1AB;
+.radio-container input[type="radio"]:checked + label {
+  background: #90e0ef;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
-
 </style>
