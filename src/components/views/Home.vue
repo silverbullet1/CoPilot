@@ -56,20 +56,20 @@
             </div>
           </div>
         <div class="column is-two-fifths container is-fluid notification is-primary right-container">
-                        <b-field label= "Name" horizontal>
-                        <b-input v-model="name"></b-input>
+                        <b-field >
+                        <b-input v-model="name" placeholder="Name"></b-input>
                         </b-field>
 
-                    <b-field label="Email"
+                    <b-field 
             type="is-danger"
-            message="This email is invalid"
-            horizontal>
+            message="Email id is mandatory">
             <b-input type="email"
-                value="john@"
+                placeholder="Email"
+                icon="email"
                 maxlength="30">
             </b-input>
         </b-field>
- <b-field label="Subject" horizontal>
+ <b-field >
                         <b-select placeholder="Select a subject" expanded>
                             <option value="1">Economics</option>
                             <option value="2">Humanities</option>
@@ -97,10 +97,10 @@
                                 </div>
                                 </div> -->
                                     
-                                      <b-field grouped  label="Words" horizontal >
-            <b-input v-model="value" type="number"></b-input>
+                                      <b-field grouped label="Word Count">
+            <b-input v-model="value" type="number" expanded></b-input>
         </b-field>
-        <b-field label="Words" horizontal id="test">
+        <b-field>
             <b-slider v-model="value" lazy></b-slider>
         </b-field>
              <b-button rounded expanded>Submit</b-button>
@@ -243,5 +243,8 @@ section {
 }
 #test label{
   visibility: hidden;
+}
+label{
+  text-align: start !important;
 }
 </style>
