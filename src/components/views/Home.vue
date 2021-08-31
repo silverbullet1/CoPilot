@@ -193,7 +193,6 @@ section {
 
 .button.is-primary {
   /* background-color: #7957d5; */
-  padding: 2%;
   border-color: transparent;
   color: #000;
 }
