@@ -18,7 +18,7 @@
     "axios": "^0.15.3",
     "babel-preset-es2015": "^6.24.1",
     "babel-runtime": "^5.8.0",
-    "buefy": "^0.9.9",
+    "buefy": "^0.9.10",
     "chart.js": "2.3.0",
     "datatables.net": "^1.10.19",
     "datatables.net-bs": "^1.10.19",
