@@ -18,7 +18,7 @@ import AppView from "./components/App.vue";
 // import Buefy from 'buefy'
 // import 'buefy/dist/buefy.css'
 
-Vue.use(Buefy);
+// Vue.use(Buefy);
 // Import Install and register helper items
 Vue.filter("count", count);
 Vue.filter("domain", domain);

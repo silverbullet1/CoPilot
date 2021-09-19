@@ -153,7 +153,7 @@ ul {
 .dots-bg::before {
   content: "";
   position: absolute;
-  background-image: url("/assets/images/dots-bg.png");
+  background-image: url("/static/img/dots-bg.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -490,7 +490,7 @@ header .nav-link {
   bottom: 0;
   width: 180px;
   height: 130px;
-  background-image: url("/assets/images/icons/curly-arrow.svg");
+  background-image: url("/static/img/icons/curly-arrow.svg");
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
