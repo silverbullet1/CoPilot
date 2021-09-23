@@ -23,8 +23,11 @@
           </button>
 
           <div class="collapse navbar-collapse" id="navbarNav">
+            
+
+            <ul class="navbar-nav me-auto ms-4">
+            <li>
             <div class="header-search">
-              <form action="">
                 <div class="form-group with-icon">
                   <span class="input-icon">
                     <i class="ri-search-2-line"></i>
@@ -35,10 +38,8 @@
                     class="form-input"
                   />
                 </div>
-              </form>
             </div>
-
-            <ul class="navbar-nav me-auto ms-4">
+            </li>
               <li class="nav-item">
                 <a class="nav-link active" href="#1"
                   >Services</a
