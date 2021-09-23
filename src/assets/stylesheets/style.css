@@ -735,5 +735,8 @@ footer .social-list {
   justify-content: center;
   padding: 20px;
 }
+html {
+  scroll-behavior: smooth;
+}
 /* FOOTER END */
 /* HOME PAGE END */
