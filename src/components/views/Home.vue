@@ -23,27 +23,23 @@
           </button>
 
           <div class="collapse navbar-collapse" id="navbarNav">
-            
-
             <ul class="navbar-nav me-auto ms-4">
-            <li>
-            <div class="header-search">
-                <div class="form-group with-icon">
-                  <span class="input-icon">
-                    <i class="ri-search-2-line"></i>
-                  </span>
-                  <input
-                    type="search"
-                    placeholder="Search"
-                    class="form-input"
-                  />
+              <li>
+                <div class="header-search">
+                  <div class="form-group with-icon">
+                    <span class="input-icon">
+                      <i class="ri-search-2-line"></i>
+                    </span>
+                    <input
+                      type="search"
+                      placeholder="Search"
+                      class="form-input"
+                    />
+                  </div>
                 </div>
-            </div>
-            </li>
+              </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#1"
-                  >Services</a
-                >
+                <a class="nav-link active" href="#1">Services</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#2">Study Material</a>
@@ -97,52 +93,116 @@
                 <div class="row">
                   <div class="col-6 mb-3">
                     <div class="form-group">
-                      <label for="fullName" class="mb-2">Full Name</label>
-                      <input
+                      <b-field>
+                        <b-input
+                          icon="account"
+                          placeholder="Your name"
+                          v-model="name"
+                        ></b-input>
+                      </b-field>
+                      <!-- <b-input 
+                        id="fullName"
+                        class="form-input"
+                        placeholder="Enter your name"
+                        v-model="name"></b-input> -->
+                      <!-- <input
                         id="fullName"
                         type="text"
                         class="form-input"
-                        placeholder="Enter word count"
-                      />
+                        placeholder="Enter your name"
+                      /> -->
                     </div>
                   </div>
+
                   <div class="col-6 mb-3">
                     <div class="form-group">
-                      <label for="emailAddress" class="mb-2"
+                      <!-- <label for="emailAddress" class="mb-2"
                         >Email Address</label
-                      >
-                      <input
+                      > -->
+                      <!-- <input
                         id="emailAddress"
                         type="email"
                         class="form-input"
                         placeholder="Enter email address"
-                      />
+                      /> -->
+                      <b-field>
+                        <b-input
+                          icon="email"
+                          icon-right=""
+                          type="email"
+                          placeholder="Your email"
+                          maxlength="30"
+                        >
+                        </b-input>
+                      </b-field>
                     </div>
                   </div>
+
                   <div class="col-6 mb-3">
                     <div class="form-group">
-                      <label for="subject" class="mb-2">Subject</label>
+                      <!-- <label for="subject" class="mb-2">Subject</label>
                       <select name="subjects" id="subject" class="form-input">
                         <option value="">Choose Subject</option>
                         <option value="Maths">Maths</option>
                         <option value="Science">Science</option>
                         <option value="SocialScience">Social Science</option>
-                      </select>
+                      </select> -->
+                      <b-field>
+                        <b-select placeholder="Select Subject" icon="book">
+                          <optgroup label="Black Sails">
+                            <option value="flint">Flint</option>
+                            <option value="silver">Silver</option>
+                            <option value="vane">Vane</option>
+                            <option value="billy">Billy</option>
+                            <option value="jack">Jack</option>
+                          </optgroup>
+
+                          <optgroup label="Breaking Bad">
+                            <option value="heisenberg">Heisenberg</option>
+                            <option value="jesse">Jesse</option>
+                            <option value="saul">Saul</option>
+                            <option value="mike">Mike</option>
+                          </optgroup>
+
+                          <optgroup label="Game of Thrones">
+                            <option value="tyrion-lannister">
+                              Tyrion Lannister
+                            </option>
+                            <option value="jamie-lannister">
+                              Jamie Lannister
+                            </option>
+                            <option value="daenerys-targaryen">
+                              Daenerys Targaryen
+                            </option>
+                            <option value="jon-snow">Jon Snow</option>
+                          </optgroup>
+                        </b-select>
+                      </b-field>
                     </div>
                   </div>
+
                   <div class="col-6 mb-3">
                     <div class="form-group">
-                      <label for="deadline" class="mb-2">Deadline</label>
+                      <b-field label>
+                        <b-datepicker
+                          icon="calendar-range"
+                          placeholder="Deadline"
+                          v-model="dates"
+                          range
+                        >
+                        </b-datepicker>
+                      </b-field>
+                      <!-- <label for="deadline" class="mb-2">Deadline</label>
                       <input
                         type="date"
                         name="deadline"
                         id="deadline"
                         class="form-input"
-                      />
+                      /> -->
                     </div>
                   </div>
 
-                  <div class="col-12 mb-3">
+                  <!-- <div class="col-12 mb-3">
                     <label for="wordCountRange" class="form-label"
                       >Select Word Count</label
                     >
@@ -151,36 +211,58 @@
                       class="form-range"
                       id="wordCountRange"
                     />
-                  </div>
+                  </div> -->
 
                   <div class="col-6 mb-3">
                     <div class="form-group">
-                      <label for="wordCount" class="mb-2">Word Count</label>
+                      <!-- <label for="wordCount" class="mb-2">Word Count</label>
                       <input
                         type="number"
                         name="wordCount"
                         id="wordCount"
                         class="form-input"
                         placeholder="Enter Word Count"
-                      />
+                      /> -->
+
+                      <b-input v-model="value" placeholder = "Word count" type="number"></b-input>
+                        <b-field>
+                          <b-slider
+                            :min="0"
+                            :max="2000"
+                            v-model="value"
+                            lazy
+                          ></b-slider>
+                        </b-field>
+                      </div>
                     </div>
-                  </div>
                   <div class="col-6 mb-3">
                     <div class="form-group">
-                      <label for="phone" class="mb-2">Phone Number</label>
+                      <!-- <label for="phone" class="mb-2">Phone Number</label>
                       <input
                         type="tel"
                         name="phone"
                         id="phone"
                         class="form-input"
                         placeholder="Enter Phone Number"
-                      />
+                      /> -->
+                      <b-field>
+                        <b-input
+                          type="phone"
+                          placeholder="Contact No."
+                          icon="cellphone-basic"
+                          maxlength="10"
+                        >
+                        </b-input>
+                      </b-field>
                     </div>
                   </div>
                   <div class="col-12 text-end mt-3">
-                    <button type="submit" class="custom-btn dark-btn">
+                    <!-- <button type="submit">
                       Let's Start
-                    </button>
+                    </button> -->
+                    <b-button type="is-success" class="custom-btn dark-btn"
+                      >Let's start</b-button
+                    >
                   </div>
                 </div>
               </form>
@@ -191,7 +273,7 @@
     </main>
 
     <section class="spacing-top-large spacing-bottom-large">
-      <div class="container" id = "1">
+      <div class="container" id="1">
         <div class="row">
           <div class="col-md-5 pe-5">
             <div class="sticky-title-box">
@@ -285,7 +367,7 @@
     </section>
 
     <section class="bg-theme-light spacing-top-large spacing-bottom-large">
-      <div class="container" id = "2">
+      <div class="container" id="2">
         <div class="row">
           <div class="col-md-3">
             <div class="stat-box text-center">
@@ -1108,66 +1190,37 @@
 
 <script>
 /* eslint-disable */
-export default {};
-$(document).ready(function() {
-		$('a[href*=#]').bind('click', function(e) {
-				e.preventDefault(); // prevent hard jump, the default behavior
+// import $ from 'jquery'
+import "../../../static/js/slick.min.js";
+// import '../../../static/js/bootstrap.bundle.min.js'
+import "../../../static/js/custom.js";
 
-				var target = $(this).attr("href"); // Set the target as variable
-
-				// perform animated scrolling by getting top-position of target-element and set it as scroll target
-				$('html, body').stop().animate({
-						scrollTop: $(target).offset().top
-				}, 600, function() {
-						location.hash = target; //attach the hash (#jumptarget) to the pageurl
-				});
-
-				return false;
-		});
-});
-
-$(window).scroll(function() {
-		var scrollDistance = $(window).scrollTop();
-
-		// Show/hide menu on scroll
-		//if (scrollDistance >= 850) {
-		//		$('nav').fadeIn("fast");
-		//} else {
-		//		$('nav').fadeOut("fast");
-		//}
-	
-		// Assign active class to nav links while scolling
-		$('.container').each(function(i) {
-				if ($(this).position().top <= scrollDistance) {
-						$('.nav-link a.active').removeClass('active');
-						$('.nav-link a').eq(i).addClass('active');
-				}
-		});
-}).scroll();
+export default {
+  data() {
+    return {
+      name: "",
+      value: 1000,
+    };
+  },
+};
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap");
+@import "../../../static/css/bootstrap.min.css";
+@import "../../../static/css/remixicon.css";
+@import "../../../static/css/slick.css";
+@import "../../../static/css/style.css";
+@import "../../../static/css/responsive.css";
 
-* {
+/* * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
+}/ */
 
 /* RESET CSS */
 html,
 body {
   background-color: white !important;
-}
-/* RESET CSS END */
-
-body {
-  font-family: "Montserrat", sans-serif;
-}
-
-a,
-.btn {
-  transition: 0.3s all;
 }
 </style>

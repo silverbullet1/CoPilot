@@ -15,10 +15,10 @@ import { domain, count, prettyDate, pluralize } from "./filters";
 
 // Import Views - Top level
 import AppView from "./components/App.vue";
-// import Buefy from 'buefy'
-// import 'buefy/dist/buefy.css'
+import Buefy from 'buefy'
+import 'buefy/dist/buefy.css'
 
-// Vue.use(Buefy);
+Vue.use(Buefy);
 // Import Install and register helper items
 Vue.filter("count", count);
 Vue.filter("domain", domain);
@@ -32,8 +32,13 @@ var router = new VueRouter({
   routes: routes,
   mode: "history",
   linkExactActiveClass: "active",
-  scrollBehavior: function(to, from, savedPosition) {
-    return savedPosition || { x: 0, y: 0 };
+  scrollBehavior (to, from, savedPosition) {
+    if (to.hash) {
+      return {
+        selector: to.hash,
+        behavior: 'smooth',
+      }
+    }
   }
 });
 

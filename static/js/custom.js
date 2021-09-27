@@ -1,3 +1,5 @@
+import $ from 'jquery'
+
 $(document).ready(function () {
   // CHANGE ICON COLOR ON INPUT FOCUS
   let iconInputList = document.querySelectorAll(".with-icon input");
