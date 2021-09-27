@@ -1,65 +1,6 @@
 <template>
   <body>
-    <header>
-      <div class="container">
-        <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand me-4" href="#">
-            <img
-              src="static/img/logo.png"
-              alt=""
-              class="img-fluid img-contain"
-            />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav me-auto ms-4">
-              <li>
-                <div class="header-search">
-                  <div class="form-group with-icon">
-                    <span class="input-icon">
-                      <i class="ri-search-2-line"></i>
-                    </span>
-                    <input
-                      type="search"
-                      placeholder="Search"
-                      class="form-input"
-                    />
-                  </div>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#1">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#2">Study Material</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#3">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#4">Order Now</a>
-              </li>
-            </ul>
-
-            <div class="header-user-actions">
-              <button class="custom-btn light-btn">Login</button>
-              <button class="custom-btn dark-btn ms-2">Signup</button>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </header>
+    <home-header></home-header>
 
     <main>
       <div class="container">
@@ -224,17 +165,21 @@
                         placeholder="Enter Word Count"
                       /> -->
 
-                      <b-input v-model="value" placeholder = "Word count" type="number"></b-input>
-                        <b-field>
-                          <b-slider
-                            :min="0"
-                            :max="2000"
-                            v-model="value"
-                            lazy
-                          ></b-slider>
-                        </b-field>
-                      </div>
+                      <b-input
+                        v-model="value"
+                        placeholder="Word count"
+                        type="number"
+                      ></b-input>
+                      <b-field>
+                        <b-slider
+                          :min="0"
+                          :max="2000"
+                          v-model="value"
+                          lazy
+                        ></b-slider>
+                      </b-field>
                     </div>
+                  </div>
                   <div class="col-6 mb-3">
                     <div class="form-group">
                       <!-- <label for="phone" class="mb-2">Phone Number</label>
@@ -1195,13 +1140,18 @@ import "../../../static/js/slick.min.js";
 // import '../../../static/js/bootstrap.bundle.min.js'
 import "../../../static/js/custom.js";
 
+import HomeHeader from "./../layout/HomeHeader.vue";
+
 export default {
   data() {
     return {
       name: "",
-      value: 1000,
+      value: 1000
     };
   },
+  components: {
+    HomeHeader
+  }
 };
 </script>
 
