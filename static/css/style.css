@@ -129,7 +129,7 @@ ul {
   content: "\EB80";
   font-family: remixicon;
   left: 0;
-  color: var(--pure-white);
+  color: var(--theme-color);
   font-size: 20px;
   margin-right: 10px;
 }

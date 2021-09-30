@@ -2,13 +2,13 @@
   <body>
     <home-header></home-header>
 
-    <main>
+    <main class="main-banner">
       <div class="container">
-        <div class="home-banner bg-theme">
+        <div class="home-banner">
           <div class="row align-items-center">
             <div class="col-md-6">
               <div class="home-banner-text">
-                <h1 class="fw-bold mb-4 text-pure-white">
+                <h1 class="fw-bold mb-4">
                   We help you complete your assignment on time!
                 </h1>
                 <p class="mb-5">
@@ -17,8 +17,9 @@
                   architecto minima quia?
                 </p>
 
-                <h5 class="fw-medium feature-title text-pure-white">
-                  Price starts at just <strong>$10</strong> only
+                <h5 class="fw-medium feature-title">
+                  Price starts at just
+                  <strong>$10</strong> only
                 </h5>
                 <ul class="with-checkmark">
                   <li>Unlimited revisions</li>
@@ -28,189 +29,13 @@
               </div>
             </div>
             <div class="col-md-6">
-              <form action="" class="home-banner-form bg-theme-dark">
-                <h4 class="mb-4 fw-bold text-pure-white">Hire Now!</h4>
-
-                <div class="row">
-                  <div class="col-6 mb-3">
-                    <div class="form-group">
-                      <b-field>
-                        <b-input
-                          icon="account"
-                          placeholder="Your name"
-                          v-model="name"
-                        ></b-input>
-                      </b-field>
-                      <!-- <b-input 
-                        id="fullName"
-                        class="form-input"
-                        placeholder="Enter your name"
-                        v-model="name"></b-input> -->
-                      <!-- <input
-                        id="fullName"
-                        type="text"
-                        class="form-input"
-                        placeholder="Enter your name"
-                      /> -->
-                    </div>
-                  </div>
-
-                  <div class="col-6 mb-3">
-                    <div class="form-group">
-                      <!-- <label for="emailAddress" class="mb-2"
-                        >Email Address</label
-                      > -->
-                      <!-- <input
-                        id="emailAddress"
-                        type="email"
-                        class="form-input"
-                        placeholder="Enter email address"
-                      /> -->
-                      <b-field>
-                        <b-input
-                          icon="email"
-                          icon-right=""
-                          type="email"
-                          placeholder="Your email"
-                          maxlength="30"
-                        >
-                        </b-input>
-                      </b-field>
-                    </div>
-                  </div>
-
-                  <div class="col-6 mb-3">
-                    <div class="form-group">
-                      <!-- <label for="subject" class="mb-2">Subject</label>
-                      <select name="subjects" id="subject" class="form-input">
-                        <option value="">Choose Subject</option>
-                        <option value="Maths">Maths</option>
-                        <option value="Science">Science</option>
-                        <option value="SocialScience">Social Science</option>
-                      </select> -->
-                      <b-field>
-                        <b-select placeholder="Select Subject" icon="book">
-                          <optgroup label="Black Sails">
-                            <option value="flint">Flint</option>
-                            <option value="silver">Silver</option>
-                            <option value="vane">Vane</option>
-                            <option value="billy">Billy</option>
-                            <option value="jack">Jack</option>
-                          </optgroup>
-
-                          <optgroup label="Breaking Bad">
-                            <option value="heisenberg">Heisenberg</option>
-                            <option value="jesse">Jesse</option>
-                            <option value="saul">Saul</option>
-                            <option value="mike">Mike</option>
-                          </optgroup>
-
-                          <optgroup label="Game of Thrones">
-                            <option value="tyrion-lannister">
-                              Tyrion Lannister
-                            </option>
-                            <option value="jamie-lannister">
-                              Jamie Lannister
-                            </option>
-                            <option value="daenerys-targaryen">
-                              Daenerys Targaryen
-                            </option>
-                            <option value="jon-snow">Jon Snow</option>
-                          </optgroup>
-                        </b-select>
-                      </b-field>
-                    </div>
-                  </div>
-
-                  <div class="col-6 mb-3">
-                    <div class="form-group">
-                      <b-field label>
-                        <b-datepicker
-                          icon="calendar-range"
-                          placeholder="Deadline"
-                          v-model="dates"
-                          range
-                        >
-                        </b-datepicker>
-                      </b-field>
-                      <!-- <label for="deadline" class="mb-2">Deadline</label>
-                      <input
-                        type="date"
-                        name="deadline"
-                        id="deadline"
-                        class="form-input"
-                      /> -->
-                    </div>
-                  </div>
-
-                  <!-- <div class="col-12 mb-3">
-                    <label for="wordCountRange" class="form-label"
-                      >Select Word Count</label
-                    >
-                    <input
-                      type="range"
-                      class="form-range"
-                      id="wordCountRange"
-                    />
-                  </div> -->
-
-                  <div class="col-6 mb-3">
-                    <div class="form-group">
-                      <!-- <label for="wordCount" class="mb-2">Word Count</label>
-                      <input
-                        type="number"
-                        name="wordCount"
-                        id="wordCount"
-                        class="form-input"
-                        placeholder="Enter Word Count"
-                      /> -->
-
-                      <b-input
-                        v-model="value"
-                        placeholder="Word count"
-                        type="number"
-                      ></b-input>
-                      <b-field>
-                        <b-slider
-                          :min="0"
-                          :max="2000"
-                          v-model="value"
-                          lazy
-                        ></b-slider>
-                      </b-field>
-                    </div>
-                  </div>
-                  <div class="col-6 mb-3">
-                    <div class="form-group">
-                      <!-- <label for="phone" class="mb-2">Phone Number</label>
-                      <input
-                        type="tel"
-                        name="phone"
-                        id="phone"
-                        class="form-input"
-                        placeholder="Enter Phone Number"
-                      /> -->
-                      <b-field>
-                        <b-input
-                          type="phone"
-                          placeholder="Contact No."
-                          icon="cellphone-basic"
-                          maxlength="10"
-                        >
-                        </b-input>
-                      </b-field>
-                    </div>
-                  </div>
-                  <div class="col-12 text-end mt-3">
-                    <!-- <button type="submit">
-                      Let's Start
-                    </button> -->
-                    <b-button type="is-success" class="custom-btn dark-btn"
-                      >Let's start</b-button
-                    >
-                  </div>
-                </div>
-              </form>
+              <div class="home-banner-image">
+                <img
+                  src="static/img/learning.svg"
+                  alt=""
+                  class="img-fluid img-contain"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -1132,7 +957,6 @@
     </footer>
   </body>
 </template>
-
 <script>
 /* eslint-disable */
 // import $ from 'jquery'
