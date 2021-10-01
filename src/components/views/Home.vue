@@ -8,7 +8,7 @@
           <div class="row align-items-center">
             <div class="col-md-6">
               <div class="home-banner-text">
-                <h1 class="fw-bold mb-4">
+                <h1 class="h1 fw-bold mb-4">
                   We help you complete your assignment on time!
                 </h1>
                 <p class="mb-5">
@@ -17,7 +17,7 @@
                   architecto minima quia?
                 </p>
 
-                <h5 class="fw-medium feature-title">
+                <h5 class="h5 fw-medium feature-title">
                   Price starts at just
                   <strong>$10</strong> only
                 </h5>
@@ -47,7 +47,7 @@
         <div class="row">
           <div class="col-md-5 pe-5">
             <div class="sticky-title-box">
-              <h2 class="mb-4 fw-semi-bold">
+              <h2 class="h2 mb-4 fw-semi-bold">
                 Free value added services for HD grade assignments
               </h2>
               <p class="mb-4 text-gray">
@@ -71,7 +71,7 @@
                   />
                 </div>
                 <div class="service-item-content">
-                  <h4 class="fw-semi-bold mb-2">Turnetit report</h4>
+                  <h4 class="h4 fw-semi-bold mb-2">Turnetit report</h4>
                   <p class="text-gray clamp">
                     Amet minim mollit non deserunt ullamcot sit aliqua dolor do
                     amet sint. Velit officia oi consequat duis enim velit
@@ -88,7 +88,7 @@
                   />
                 </div>
                 <div class="service-item-content">
-                  <h4 class="fw-semi-bold mb-2">Quality Check</h4>
+                  <h4 class="h4 fw-semi-bold mb-2">Quality Check</h4>
                   <p class="text-gray clamp">
                     Amet minim mollit non deserunt ullamcot sit aliqua dolor do
                     amet sint. Velit officia oi consequat duis enim velit
@@ -105,7 +105,7 @@
                   />
                 </div>
                 <div class="service-item-content">
-                  <h4 class="fw-semi-bold mb-2">Proofreading & Editing</h4>
+                  <h4 class="h4 fw-semi-bold mb-2">Proofreading & Editing</h4>
                   <p class="text-gray clamp">
                     Amet minim mollit non deserunt ullamcot sit aliqua dolor do
                     amet sint. Velit officia oi consequat duis enim velit
@@ -122,7 +122,7 @@
                   />
                 </div>
                 <div class="service-item-content">
-                  <h4 class="fw-semi-bold mb-2">Proofreading & Editing</h4>
+                  <h4 class="h4 fw-semi-bold mb-2">Proofreading & Editing</h4>
                   <p class="text-gray clamp">
                     Amet minim mollit non deserunt ullamcot sit aliqua dolor do
                     amet sint. Velit officia oi consequat duis enim velit
@@ -148,7 +148,7 @@
                   class="img-fluid img-contain"
                 />
               </div>
-              <h4 class="fw-medium mb-2">10K+</h4>
+              <h4 class="h4 fw-medium mb-2">10K+</h4>
               <h6 class="fw-reguler">Assignments Complete</h6>
             </div>
           </div>
@@ -161,8 +161,8 @@
                   class="img-fluid img-contain"
                 />
               </div>
-              <h4 class="fw-medium mb-2">8+</h4>
-              <h6 class="fw-reguler">Experties In This field</h6>
+              <h4 class="h4 fw-medium mb-2">8+</h4>
+              <h6 class="h6 fw-reguler">Experties In This field</h6>
             </div>
           </div>
           <div class="col-md-3">
@@ -174,8 +174,8 @@
                   class="img-fluid img-contain"
                 />
               </div>
-              <h4 class="fw-medium mb-2">10K+</h4>
-              <h6 class="fw-reguler">Happy Students</h6>
+              <h4 class="h4 fw-medium mb-2">10K+</h4>
+              <h6 class="h6 fw-reguler">Happy Students</h6>
             </div>
           </div>
           <div class="col-md-3">
@@ -187,8 +187,8 @@
                   class="img-fluid img-contain"
                 />
               </div>
-              <h4 class="fw-medium mb-2">200</h4>
-              <h6 class="fw-reguler">Awards Won</h6>
+              <h4 class="h4 fw-medium mb-2">200</h4>
+              <h6 class="h6 fw-reguler">Awards Won</h6>
             </div>
           </div>
         </div>
@@ -200,7 +200,7 @@
         <div class="row">
           <div class="col-md-5 pe-5">
             <div class="sticky-title-box">
-              <h2 class="mb-4 fw-semi-bold">Trusted by educators at</h2>
+              <h2 class="h2 mb-4 fw-semi-bold">Trusted by educators at</h2>
               <p class="mb-4 text-gray">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
@@ -298,7 +298,7 @@
     >
       <div class="container">
         <div class="title-bar text-center mb-5">
-          <h4 class="fw-semi-bold clamp">
+          <h4 class="h4 fw-semi-bold clamp">
             Exceptional online assignment help in Australia
           </h4>
           <p class="text-gray mx-auto paragraph-contain">
@@ -318,7 +318,7 @@
                   class="img-inherit img-contain"
                 />
               </div>
-              <h4 class="fw-semi-bold clamp mb-2">
+              <h4 class="h4 fw-semi-bold clamp mb-2">
                 Dissertation writing service
               </h4>
               <p class="text-gray">
@@ -337,7 +337,7 @@
                   class="img-inherit img-contain"
                 />
               </div>
-              <h4 class="fw-semi-bold clamp mb-2">Essay writing</h4>
+              <h4 class="h4 fw-semi-bold clamp mb-2">Essay writing</h4>
               <p class="text-gray">
                 Amet minim mollit non deserunt ullamcot sit liqua dolor do amet
                 sint. Velit officia oi consequat duis enim velit mollit.
@@ -354,7 +354,7 @@
                   class="img-inherit img-contain"
                 />
               </div>
-              <h4 class="fw-semi-bold clamp mb-2">Thesis writing</h4>
+              <h4 class="h4 fw-semi-bold clamp mb-2">Thesis writing</h4>
               <p class="text-gray">
                 Amet minim mollit non deserunt ullamcot sit liqua dolor do amet
                 sint. Velit officia oi consequat duis enim velit mollit.
@@ -371,7 +371,9 @@
                   class="img-inherit img-contain"
                 />
               </div>
-              <h4 class="fw-semi-bold clamp mb-2">Research proposal writing</h4>
+              <h4 class="h4 fw-semi-bold clamp mb-2">
+                Research proposal writing
+              </h4>
               <p class="text-gray">
                 Amet minim mollit non deserunt ullamcot sit liqua dolor do amet
                 sint. Velit officia oi consequat duis enim velit mollit.
@@ -388,7 +390,7 @@
                   class="img-inherit img-contain"
                 />
               </div>
-              <h4 class="feature-title fw-semi-bold clamp mb-2">
+              <h4 class="h4 feature-title fw-semi-bold clamp mb-2">
                 Case study writing
               </h4>
               <p class="text-gray">
@@ -407,7 +409,9 @@
                   class="img-inherit img-contain"
                 />
               </div>
-              <h4 class="fw-semi-bold mb-2">Online exam & Quiz assistance</h4>
+              <h4 class="h4 fw-semi-bold mb-2">
+                Online exam & Quiz assistance
+              </h4>
               <p class="text-gray">
                 Amet minim mollit non deserunt ullamcot sit liqua dolor do amet
                 sint. Velit officia oi consequat duis enim velit mollit.
@@ -427,7 +431,7 @@
     <section class="spacing-bottom-large spacing-top-large">
       <div class="container">
         <div class="title-bar text-center mb-5">
-          <h4 class="fw-semi-bold clamp">
+          <h4 class="h4 fw-semi-bold clamp">
             Our subject expertise in online assignment help
           </h4>
           <p class="text-gray mx-auto paragraph-contain">
@@ -447,7 +451,7 @@
                   class="img-inherit img-contain"
                 />
               </div>
-              <h6 class="text-pure-black fw-semi-bold mb-0">Management</h6>
+              <h6 class="h6 text-pure-black fw-semi-bold mb-0">Management</h6>
             </div>
           </div>
           <div class="col-xxl-3">
@@ -459,7 +463,7 @@
                   class="img-inherit img-contain"
                 />
               </div>
-              <h6 class="text-pure-black fw-semi-bold mb-0">Nursing</h6>
+              <h6 class="h6 text-pure-black fw-semi-bold mb-0">Nursing</h6>
             </div>
           </div>
           <div class="col-xxl-3">
@@ -471,7 +475,7 @@
                   class="img-inherit img-contain"
                 />
               </div>
-              <h6 class="text-pure-black fw-semi-bold mb-0">Law</h6>
+              <h6 class="h6 text-pure-black fw-semi-bold mb-0">Law</h6>
             </div>
           </div>
           <div class="col-xxl-3">
@@ -483,7 +487,7 @@
                   class="img-inherit img-contain"
                 />
               </div>
-              <h6 class="text-pure-black fw-semi-bold mb-0">Statistics</h6>
+              <h6 class="h6 text-pure-black fw-semi-bold mb-0">Statistics</h6>
             </div>
           </div>
           <div class="col-xxl-3">
@@ -495,7 +499,7 @@
                   class="img-inherit img-contain"
                 />
               </div>
-              <h6 class="text-pure-black fw-semi-bold mb-0">Accounting</h6>
+              <h6 class="h6 text-pure-black fw-semi-bold mb-0">Accounting</h6>
             </div>
           </div>
           <div class="col-xxl-3">
@@ -507,7 +511,7 @@
                   class="img-inherit img-contain"
                 />
               </div>
-              <h6 class="text-pure-black fw-semi-bold mb-0">Engineering</h6>
+              <h6 class="h6 text-pure-black fw-semi-bold mb-0">Engineering</h6>
             </div>
           </div>
           <div class="col-xxl-3">
@@ -519,7 +523,7 @@
                   class="img-inherit img-contain"
                 />
               </div>
-              <h6 class="text-pure-black fw-semi-bold mb-0">IT</h6>
+              <h6 class="h6 text-pure-black fw-semi-bold mb-0">IT</h6>
             </div>
           </div>
           <div class="col-xxl-3">
@@ -531,7 +535,7 @@
                   class="img-inherit img-contain"
                 />
               </div>
-              <h6 class="text-pure-black fw-semi-bold mb-0">Economics</h6>
+              <h6 class="h6 text-pure-black fw-semi-bold mb-0">Economics</h6>
             </div>
           </div>
         </div>
@@ -544,7 +548,7 @@
           <div class="col-lg-6">
             <div class="student-review-section-content">
               <div class="title-bar mb-5">
-                <h2 class="fw-semi-bold">What our Students say about us</h2>
+                <h2 class="h2 fw-semi-bold">What our Students say about us</h2>
                 <p class="text-gray">
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor
                   amet sint.
@@ -565,8 +569,8 @@
                   </div>
 
                   <div class="stu-review-by mb-4">
-                    <h4 class="fw-semi-bold mb-2">Jesicca Doe</h4>
-                    <h4 class="fw-reguler">California, United States</h4>
+                    <h4 class="h4 fw-semi-bold mb-2">Jesicca Doe</h4>
+                    <h4 class="h4 fw-reguler">California, United States</h4>
                   </div>
                 </div>
 
@@ -583,8 +587,8 @@
                   </div>
 
                   <div class="stu-review-by mb-4">
-                    <h4 class="fw-semi-bold mb-2">Arthur Morgan</h4>
-                    <h4 class="fw-reguler">West Virginia, United States</h4>
+                    <h4 class="h4 fw-semi-bold mb-2">Arthur Morgan</h4>
+                    <h4 class="h4 fw-reguler">West Virginia, United States</h4>
                   </div>
                 </div>
               </div>
@@ -615,7 +619,7 @@
     <section class="spacing-bottom-large spacing-top-large">
       <div class="container">
         <div class="title-bar text-center mb-5">
-          <h4 class="fw-semi-bold clamp">Our latest Blog</h4>
+          <h4 class="h4 fw-semi-bold clamp">Our latest Blog</h4>
           <p class="text-gray mx-auto paragraph-contain">
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
             sint. Velit officia consequat duis enim velit mollit. Exercitation
@@ -635,7 +639,7 @@
               </div>
               <div class="card-content">
                 <p class="card-date text-gray">8 Sept, 2021</p>
-                <h6 class="card-title text-pure-black fw-semi-bold clamp">
+                <h6 class="h6 card-title text-pure-black fw-semi-bold clamp">
                   Brand Ambassador
                 </h6>
                 <p class="card-description text-gray clamp">
@@ -657,7 +661,7 @@
               </div>
               <div class="card-content">
                 <p class="card-date text-gray">15 Sept, 2021</p>
-                <h6 class="card-title text-pure-black fw-semi-bold clamp">
+                <h6 class="h6 card-title text-pure-black fw-semi-bold clamp">
                   Area Sales Manager
                 </h6>
                 <p class="card-description text-gray clamp">
@@ -701,7 +705,7 @@
               </div>
               <div class="card-content">
                 <p class="card-date text-gray">15 Sept, 2021</p>
-                <h6 class="card-title text-pure-black fw-semi-bold clamp">
+                <h6 class="h6 card-title text-pure-black fw-semi-bold clamp">
                   Area Sales Manager
                 </h6>
                 <p class="card-description text-gray clamp">
@@ -716,7 +720,7 @@
 
         <section class="bg-theme dots-bg text-center spacing-large">
           <div class="newsletter-wrap">
-            <h2 class="fw-semi-bold text-pure-white">
+            <h2 class="h2 fw-semi-bold text-pure-white">
               Subscribe to our newsletter
             </h2>
             <p class="text-light mb-4">
@@ -745,7 +749,7 @@
           <div class="row">
             <div class="col">
               <div class="footer-links-list">
-                <h6 class="footer-list-title text-gray">Quick Links</h6>
+                <h6 class="h6 footer-list-title text-gray">Quick Links</h6>
                 <ul>
                   <li>
                     <a href="javascript:void(0)" class="link-light">Home</a>
@@ -822,7 +826,7 @@
             </div>
             <div class="col">
               <div class="footer-links-list">
-                <h6 class="footer-list-title text-gray">Services</h6>
+                <h6 class="h6 footer-list-title text-gray">Services</h6>
                 <ul>
                   <li>
                     <a href="" class="link-light">Assignments</a>
@@ -851,7 +855,7 @@
             </div>
             <div class="col">
               <div class="footer-links-list">
-                <h6 class="footer-list-title text-gray fw-semi-bold">
+                <h6 class="h6 footer-list-title text-gray fw-semi-bold">
                   Subjects
                 </h6>
                 <ul>
@@ -896,7 +900,7 @@
             </div>
             <div class="col">
               <div class="footer-links-list">
-                <h6 class="footer-list-title text-gray fw-semi-bold">
+                <h6 class="h6 footer-list-title text-gray fw-semi-bold">
                   Library
                 </h6>
                 <ul>
@@ -925,7 +929,7 @@
                   </li>
                 </ul>
               </div>
-              <h6 class="footer-list-title text-gray fw-semi-bold">
+              <h6 class="h6 footer-list-title text-gray fw-semi-bold">
                 Download our app
               </h6>
               <ul class="social-list">
